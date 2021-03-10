@@ -1,4 +1,4 @@
-# vector-autoregression
+# vector-autoregression-estimation-and-tests
 This repository carries out Matlab-coded estimation and tests for Vector Autoregression models.
 
 ## File introduction
