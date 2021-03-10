@@ -11,3 +11,11 @@ This repository carries out Matlab-coded estimation and tests for Vector Autoreg
 - MonteCarlo.m: It takes as inputs the number of simulations, the number of observations to be discarded, and the length of the time series. It gives as outputs all the replicated time series in one matrix.  
 
 - relative_rejection_frequencies: This is my main file which specifies the maximum number of lags, the number of simulations, the number of observations to be discarded, an indicator of including an intercept, and the significance level. It then specifies the different choices for the length of data and the break point. 
+
+## Results
+Case | T=80 Tb=0.5T | T=500 Tb=0.5T | T=80 Tb=0.2T | T=500 Tb=0.2T
+---- | ------------ | ------------- | ------------ | -------------
+BP, asymptotic chi-square | 0.15 | 0.05 | 0.24 | 0.06
+SS, asymptotic chi-square | 0.14 | 0.06 | 0.16 | 0.06
+BP, bootstrapped | 0.09 | 0.05 | 0.10 | 0.05
+SS, bootstrapped | 0.11 | 0.06 | 0.11 | 0.04
