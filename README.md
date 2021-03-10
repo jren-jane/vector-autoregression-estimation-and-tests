@@ -8,4 +8,4 @@ This repository carries out Matlab-coded tests for Vector Autoregression models.
 
 - MonteCarlo.m: I simulate 500 sets of time series data, estimate a VAR with intercept, and compute relative rejection frequencies based on the p-values obtained earlier. 
 
--relative_rejection_frequencies: This is the main file which returns the relative rejection frequencies.
+- relative_rejection_frequencies: This is the main file which returns the relative rejection frequencies.
