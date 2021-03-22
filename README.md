@@ -1,8 +1,8 @@
 # vector-autoregression-estimation-and-tests
-This repository carries out Matlab-coded estimation and tests for Vector Autoregression models.
+This repository carries out Matlab-coded estimation and tests for Vector Autoregression models. I explore the finite sample properties of the Chow breakpoint tests and the Chow sample split using some Monte Carlo experiments.
 
 ## File introduction
-- chowtest_chisqure_bootstrap.m: This is a function that conducts Chow breakpoint test and Chow sample slit test on a K-dimensional VAR(p). Those tests are used for testing structural breaks. It takes as inputs a (T+p)K matrix, a break point, the number of lags, and an indicator of whether to include an intercept. It returns p-values based on the asymptotic chi-square-distribution as well as bootstrap p-values based on bootstrap replications. 
+- chowtest_chisquare_bootstrap.m: This is a function that conducts Chow breakpoint test and Chow sample slit test on a K-dimensional VAR(p). Those tests are used for testing structural breaks. It takes as inputs a (T+p)K matrix, a break point, the number of lags, and an indicator of whether to include an intercept. It returns p-values based on the asymptotic chi-square-distribution as well as bootstrap p-values based on bootstrap replications. 
   - In the first half of the function, the model is estimated, the values of the BP and SS test statistics are obtained and stored, and their p-values are computed using an asymptotic chi-square-distribution. 
   - In the second half of the function, bootstrapping is implemented, values of the test statistics from bootstrapping are collected, and the original test statistics from the first half are compared with the bootstrapped distribution to show the p-values.
 
