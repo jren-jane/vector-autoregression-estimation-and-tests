@@ -21,4 +21,7 @@ BP, bootstrapped | 0.09 | 0.05 | 0.10 | 0.05
 SS, bootstrapped | 0.11 | 0.06 | 0.11 | 0.04
 
 ## Implications
-The result shows that the asymptotic chi-square distribution is a poor approximation of the actual distribution.
+At a significance level of 5%, we should be expecting our relative rejection frequencies to be around 0.05. But we see many exceptions. The result shows that
+- Asymptotic chi-square distribution is a poor approximation of the actual distribution.
+- Shorter samples tend to give inaccurate test results. 
+- The problems of having a too short second period is not as serious as those of having a too short first period, because after cutting off the presamples, we might not have enough samples left to draw a reliable result.
